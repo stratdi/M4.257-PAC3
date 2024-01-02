@@ -1,0 +1,36 @@
+<footer>
+    <picture>
+        <source media="(max-width: 768px)"
+            srcset="src/img/UocPeace.png?quality=50&width=200, src/img/UocPeace.png?width=200 2x">
+        <img src="src/img/UocPeace.png?quality=50" srcset="src/img/UocPeace.png 2x" alt="UOC Peace, logotip">
+    </picture>
+
+    <nav>
+        <a href="/index.html">Portada</a>
+        <a href="/categoria.html">Categoria</a>
+        <a href="/presentacio.html">Presentació</a>
+        <a href="/enllacos.html">Enllaços</a>
+    </nav>
+
+    <fieldset id="theme-toggler">
+        <legend for="theme-toggler">Tema</legend>
+        <div class="btn-group" role="group" aria-hidden="true">
+            <label class="btn btn-outline-primary light" for="theme-light-radio" id="theme-light">
+                <span data-feather="sun" aria-hidden="true">Light theme</span><span class="hidden">Light theme</span>
+            </label>
+            <input type="radio" name="theme" id="theme-light-radio" autocomplete="off" aria-label="Light theme" />
+
+            <label class="btn btn-outline-primary osdefault" for="theme-osdefault-radio" id="theme-osdefault">
+                <span data-feather="monitor" aria-hidden="true">Auto theme</span><span class="hidden">Auto theme</span>
+            </label>
+            <input type="radio" name="theme" id="theme-osdefault-radio" autocomplete="off" checked
+                aria-label="Auto theme" />
+
+            <label class="btn btn-outline-primary dark" for="theme-dark-radio" id="theme-dark">
+                <span data-feather="moon" aria-hidden="true">Dark theme</span><span class="hidden">Dark theme</span>
+            </label>
+            <input type="radio" name="theme" id="theme-dark-radio" autocomplete="off" a aria-label="Dark theme" />
+        </div>
+    </fieldset>
+
+</footer>
