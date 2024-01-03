@@ -170,8 +170,12 @@ body {
 /* Relatiu al contingut principal */
 main {
     margin: 0 auto;
-    max-width: 960px;
+    max-width: 1000px;
     padding-bottom: 13vh;
+
+    &.small {
+        max-width: 769px;
+    }
 
     section>article {
         margin-bottom: 20px;
