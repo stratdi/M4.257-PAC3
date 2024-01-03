@@ -169,7 +169,8 @@ body {
 
 /* Relatiu al contingut principal */
 main {
-    margin: 0 10px;
+    margin: 0 auto;
+    max-width: 1201px;
     padding-bottom: 13vh;
 
     section>article {
@@ -395,7 +396,9 @@ svg.animated-logo {
 /* Estils per dispositius mòbils */
 @media (max-width: 768px) {
     main {
+        margin: 0 10px;
         padding-bottom: 26vh;
+        max-width: initial;
     }
 
     .menu {
