@@ -33,7 +33,7 @@ function setThemeInitial() {
 /**
  * Inicialitza la funcionalitat dels botons del tema.
  */
-export function initTheme() {
+function initTheme() {
     const lightButton = document.querySelector("#theme-light");
     const darkButton = document.querySelector("#theme-dark");
     const osButton = document.querySelector("#theme-osdefault");

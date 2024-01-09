@@ -55,19 +55,19 @@
     src: url("/src/fonts/op.ttf");
 }
 
-@font-face {
-  font-family: 'PT Sans';
-  font-weight: 400;
-  src: url("/src/fonts/PTSans-Regular.ttf");
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'PT Sans';
+//   font-weight: 400;
+//   src: url("/src/fonts/PTSans-Regular.ttf");
+//   font-display: swap;
+// }
 
-@font-face {
-  font-family: 'PT Sans';
-  font-weight: 700;
-  src: url("/src/fonts/PTSans-Bold.ttf");
-  font-display: swap;
-}
+// @font-face {
+//   font-family: 'PT Sans';
+//   font-weight: 700;
+//   src: url("/src/fonts/PTSans-Bold.ttf");
+//   font-display: swap;
+// }
 
 * {
     font-family: var(--font-pt-sans);
@@ -158,8 +158,9 @@ header {
                 background-position: 100% 100%;
             }
 
-            svg {
-                margin-right: 5px;
+            svg, img {
+              border-color: white;
+              margin-right: 5px;
             }
         }
     }
