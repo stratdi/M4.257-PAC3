@@ -55,6 +55,20 @@
     src: url("/src/fonts/op.ttf");
 }
 
+@font-face {
+  font-family: 'PT Sans';
+  font-weight: 400;
+  src: url("/src/fonts/PTSans-Regular.ttf");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-weight: 700;
+  src: url("/src/fonts/PTSans-Bold.ttf");
+  font-display: swap;
+}
+
 * {
     font-family: var(--font-pt-sans);
 }
