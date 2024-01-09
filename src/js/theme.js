@@ -45,6 +45,8 @@ function initTheme() {
   setThemeInitial();
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  initTheme();
-});
+initTheme();
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   initTheme();
+// });
